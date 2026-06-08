@@ -3,8 +3,8 @@
   --card-bg: #ffffff;
   --text: #1f2937;
   --border: #d1d5db;
-  --btn: #2563eb;
-  --btn-hover: #1d4ed8;
+  --btn: #779ef1;
+  --btn-hover: #26d81d;
 }
 
 * {
@@ -21,6 +21,7 @@ body {
   background: var(--page-bg);
   color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
 }
 
 form {
@@ -53,8 +54,8 @@ input {
 }
 
 input:focus {
-  border-color: #93c5fd;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+  border-color: #f6bd68;
+  box-shadow: 1px 1px 1px 3px rgb(113, 113, 219);
 }
 
 button {
@@ -64,7 +65,7 @@ button {
   border: none;
   border-radius: 8px;
   background: var(--btn);
-  color: #fff;
+  color: #040f14;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
